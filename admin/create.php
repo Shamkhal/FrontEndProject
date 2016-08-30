@@ -141,38 +141,7 @@
 						<a href="admin.php" class="btn btn-default">Back</a>
 					</form>
 				</div>
-			</div>
-	<?php
-		} else if ($section == "firsttab") {
-	?>
-			<div class="container">
-				<div class="row">
-					<h2>Create First Tab Button</h2>
-				</div><!-- row -->
-				<div class="row">
-					<form action="" method="POST" enctype="multipart/form-data">
-						<div class="form-group">
-						<label for="name">title</label>
-							<input type="text" name="title" class="form-control" id="title" placeholder="Title">
-						</div>
-						<div class="form-group">
-						<label for="position">titleBlue</label>
-							<input type="text" name="titleBlue" class="form-control" id="titleBlue" placeholder="Special Word">
-						</div>
-						<div class="form-group">
-						<label for="about">Subtitle</label>
-							<input type="text" name="Subtitle" class="form-control" id="Subtitle" placeholder="Subtitle">
-						</div>
-						<div class="form-group">
-							<label for="image">Select Photo</label>
-							<input type="file" id="image" name="image">
-						</div>
-						<input type="hidden" name="section" value="<?=$section?>">
-						<input type="submit" name="submit" class="btn btn-success" value="Create">
-						<a href="admin.php" class="btn btn-default">Back</a>
-					</form>
-				</div>
-			</div>		
+			</div>	
 	<?php
 		} else {
 			throw_error("Error!");

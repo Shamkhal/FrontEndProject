@@ -149,29 +149,30 @@
     display: inline-block;
     margin-bottom: 50px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\000037}}
-    #about .nav-tabs .active button {
+    #about .nav-tabs .active a {
       background-color: #1AC6FF;
       color: #fff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000313}}
-    #about .nav-tabs li button {
+    #about .nav-tabs li a {
       border-radius: 0;
       border: 1px solid #F0F0F0;
       margin: 0;
       padding: 20px 60px;
       color: #000; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000319}}
-      #about .nav-tabs li button:hover {
+      #about .nav-tabs li a:hover {
         background-color: #1AC6FF;
         color: #fff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000323}}
-      #about .nav-tabs li button:focus {
-        background-color: #1AC6FF;
-        color: #fff; }
+      #about .nav-tabs li a:focus {
+        background-color: transparent;
+        color: #000; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000331}}
   #about .tab-content .tab-active {
     display: block !important; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000334}}
   #about .tab-content .tab-panel {
+    display: none;
     padding-bottom: 20px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000337}}
     #about .tab-content .tab-panel a {
@@ -878,10 +879,6 @@ body {
   font-family: 'Lato', sans-serif; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/main\.scss}line{font-family:\0000322}}
-.hidden {
-  display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/main\.scss}line{font-family:\0000325}}
 .up-arrow {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -898,8 +895,7 @@ body {
   cursor: pointer;
   z-index: 5;
   opacity: 0.4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/main\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/main\.scss}line{font-family:\0000337}}
   .up-arrow:hover {
     opacity: 1; }
-
 /*# sourceMappingURL=main.css.map */

@@ -103,46 +103,33 @@
 <section id="about">
 	<div class="container text-center">
 		<ul class="nav nav-tabs text-center">
-			<li class="liOne active">
-				<button class="first-tab ">FIRST TAB</button>
+			<li class="active">
+				<a href="#first-tab">FIRST TAB</a>
 			</li>
-			<li class="liTwo">
-				<button class="second-tab">SECOND TAB</button>
+			<li>
+				<a href="#second-tab">SECOND TAB</a>
 			</li>
-			<li class="liThree">
-				<button class="third-tab">THIRD TAB</button>
+			<li>
+				<a href="#third-tab">THIRD TAB</a>
 			</li>
 		</ul>
 		<div class="tab-content">
-			<div class="tab-panel tab-active"  >
-				<div class="row" id="first-tab">
-					<?php
-						if($db_conn) {
-							$sql_select_all = "SELECT * FROM firsttab";
-							$query = mysqli_query($db_conn, $sql_select_all);
-							if ($query) {
-								$i = 0;
-								while ($result = mysqli_fetch_assoc($query)) {
-					?>
+			<div class="tab-panel tab-active" id="first-tab">
+				<div class="row">
 					<div class="col-sm-6">
-						<img src="assets/images/<?=$result['image_path']?>" class="img-responsive">
+						<img src="assets/images/people.jpg" class="img-responsive">
 					</div><!-- col-sm-6 -->
 					<div class="col-sm-6">
 						<br>
-						<h3><?=$result['title']?><span><?=$result['titleBlue']?></span></h3>
-						<p class="sub-title"><?=$result['subtitle']?></p>
-						<p><?=$result['text']?>afsafasfasafa</p>
-						<a href="<?=$result['link1']?>" class="btn"><?=$result['button1']?></a>
-						<a href="<?<?=$result['link2']?>" class="btn"><?=$result['button2']?></a>
+						<h3>FOR EVERY <span>STARTUP</span></h3>
+						<p class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</p>
+						<p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
+						<a href="#" class="btn">GET TEMPLATE</a>
+						<a href="#" class="btn">SEE ELEMENTS</a>
 					</div><!-- col-sm-6 -->
-				<?php
-							}
-						}
-					}
-				?>
 				</div><!-- row -->
 			</div><!-- tab-panel -->
-			<div class="tab-panel hidden" id="second-tab">
+			<div class="tab-panel" id="second-tab">
 				<div class="row">
 					<div class="col-sm-6 pull-right">
 						<img src="assets/images/phone.jpg" class="img-responsive">
@@ -152,10 +139,10 @@
 						<h3>NEW AGE <span>TECHNOLOGY</span></h3>
 						<p class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</p>
 						<p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
-					</div>   <!-- col-sm-6 -->
-				</div>   <!-- row -->
-			</div>  <!-- tab-panel -->
-			<div class="tab-panel hidden" id="third-tab">
+					</div><!-- col-sm-6 -->
+				</div><!-- row -->
+			</div><!-- tab-panel -->
+			<div class="tab-panel" id="third-tab">
 				<div class="section-header">
 					<h2>3 EASY STEPS</h2>
 					<p class="sub-header">
@@ -511,7 +498,7 @@
 		</div><!-- col-md-12 col-lg-3 -->
 	</div><!-- container -->
 </section><!-- guarantee -->
-<footer id="footer">
+<section id="footer">
 	<div class="container">
 		<div class="footer-content row">
 		<?php
@@ -555,15 +542,29 @@
 			<div class="col-sm-3 col-xs-12">
 				<strong class="heading">Our Contacts</strong>
 				<ul class="list-unstyled">
-					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:info@startup.ly">info@startup.ly</a></li>
-					<li><i class="fa fa-map-marker" aria-hidden="true"></i>2901 Marmora road, Glassgow, Seattle, WA 98122-1090</li>
-					<li><i class="fa fa-phone" aria-hidden="true"></i>1 - 234-456-7980</li>
+				<?php
+						if($db_conn) {
+							$sql_select_all = "SELECT * FROM contact";
+							$query = mysqli_query($db_conn, $sql_select_all);
+							if ($query) {
+								$i = 0;
+								while ($result = mysqli_fetch_assoc($query)) {
+					?>
+					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:<?=$result['mail']?>"><?=$result['mail']?></a></li>
+					<li><i class="fa fa-map-marker" aria-hidden="true"></i><?=$result['adress']?></li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i><?=$result['phone_number']?></li>
+					<?php
+								}
+							}
+						}
+					?>
+	
 				</ul>
 			</div><!-- col-sm-3 col-xs-12 -->
 		</div><!-- footer-content -->
 		<div class="copyright">startup.ly 2014. All rights reserved.</div>
 	</div><!-- container -->
-</footer><!-- footer -->
+</section><!-- section -->
 <div class="up-arrow">
 	<i class="fa fa-angle-up fa-3x"></i>
 </div>

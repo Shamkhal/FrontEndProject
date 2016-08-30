@@ -5,7 +5,7 @@
 		if (isset($_GET['section'])) {
 			$section = $_GET['section'];
   			$id = $_GET["id"];
-  			$sql_update = "SELECT * FROM $section WHERE id=$id";
+  			$sql_update = "SELECT * FROM $section WHERE id= '$id'";
   			$query = mysqli_query($db_conn, $sql_update);
   			$row = mysqli_fetch_assoc($query);
 
@@ -148,7 +148,7 @@
 				</div>
 			</div>	
 	<?php
-		} else if ($section == "footer") {
+		} else if ($section == "information") {
 	?>
 			<div class="container">
 				<div class="row">
@@ -173,7 +173,34 @@
 						<a href="admin.php" class="btn btn-default">Back</a>
 					</form>
 				</div>
-			</div>		
+			</div>	
+			<?php
+		} else if ($section == "contact") {
+	?>
+			<div class="container">
+				<div class="row">
+					<h2>Update Contact</h2>
+				</div><!-- row -->
+				<div class="row">
+					<form action="" method="POST">
+						<div class="form-group">
+						<label for="mail">Mail</label>
+							<input type="text" name="mail" class="form-control" id="mail" value= "<?php echo $row['mail']; ?>">
+						</div>
+						<div class="form-group">
+						<label for="adress">Adress</label>
+							<input type="text" name="adress" class="form-control" id="adress" value= "<?php echo $row['adress']; ?>">
+						</div>
+						<div class="form-group">
+						<label for="phone_number">Phone Number</label>
+							<input type="text" name="phone_number" class="form-control" id="phone_number" value= "<?php echo $row['phone_number']; ?>">
+						</div>
+						<input type="hidden" name="section" value="<?=$section?>">
+						<input type="submit" name="submit" class="btn btn-success" value="Update">
+						<a href="admin.php" class="btn btn-default">Back</a>
+					</form>
+				</div>
+			</div>	
 	<?php
 		} else {
 			throw_error("Error!");
@@ -260,7 +287,7 @@
 					$target_file = "../assets/images/" . $filename;
 					if($filetype == "jpg" || $filetype == "png" || $filetype == "jpeg") {
 						if(move_uploaded_file($_FILES['image']['tmp_name'], $target_file)) {
-							$sql_update = "UPDATE '$section' SET 'name'=$name, 'position'=$position, 'about'=$about, 'image_path=$filename' WHERE id =$id";
+							$sql_update = "UPDATE `$section` SET `name`='$name', `position`='$position', `about`='$about', `image_path`='$filename' WHERE id =$id";
 							if(mysqli_query($db_conn, $sql_update)) {
 								throw_error("Success!");
 							} else {
@@ -269,7 +296,7 @@
 						}
 					}
 				}
-			}else if ($section == "footer") {
+			}else if ($section == "information") {
 				if(isset($_POST['content']) && isset($_POST['writer']) && isset($_FILES['image'])) {
 					$content = $_POST['content'];
 					$writer = $_POST['writer'];
@@ -279,13 +306,26 @@
 					$target_file = "../assets/images/" . $filename;
 					if($filetype == "jpg" || $filetype == "png" || $filetype == "jpeg") {
 						if(move_uploaded_file($_FILES['image']['tmp_name'], $target_file)) {
-							$sql_update = "UPDATE '$section' SET 'content'=$content, 'writer'=$writer, 'image_path=$filename' WHERE id =$id";
+							$sql_update = "UPDATE information SET content='$content', writer='$writer', image_path='$filename' WHERE id =$id";
 							if(mysqli_query($db_conn, $sql_update)) {
 								throw_error("Success!");
 							} else {
-								throw_error("Error!");
+								throw_error("ERROR!");
 							}
 						}
+					}
+				}
+			}else if ($section == "contact") {
+				if(isset($_POST['mail']) && isset($_POST['adress']) && isset($_POST['phone_number'])) {
+					$mail = $_POST['mail'];
+					$adress = $_POST['adress'];
+					$phone_number = $_POST['phone_number'];
+					$sql_update = "UPDATE `$section` SET `mail`='$mail',`adress`='$adress',`phone_number`='$phone_number' WHERE id = $id";
+
+					if(mysqli_query($db_conn, $sql_update)) {
+						throw_error("Success");
+					} else {
+						throw_error("Error!");
 					}
 				}
 			}

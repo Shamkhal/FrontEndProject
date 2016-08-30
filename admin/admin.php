@@ -212,7 +212,7 @@
 			</table>
 			<a href="create.php?section=team" class="btn btn-success pull-right">Create</a><br><br><br>
 			<table class="table table-striped table-bordered table-hover">
-				<caption>Team</caption>
+				<caption>Information</caption>
 				<thead>
 					<th>ID</th>
 					<th>Content</th>
@@ -224,7 +224,7 @@
 				<tbody>		
 					<?php
 						if($db_conn) {
-							$sql_select_all = "SELECT * FROM footer";
+							$sql_select_all = "SELECT * FROM information";
 							$query = mysqli_query($db_conn, $sql_select_all);
 							if ($query) {
 								$i = 0;
@@ -234,11 +234,11 @@
 									<tr>
 										<td><?=$id?></td>
 										<td><?=$result['content']?></td>
-										<td><?=$result['title']?></td>
+										<td><?=$result['writer']?></td>
 										<td><?=$result['image_path']?></td>
 										<td><img width="75px" height="75px" src="../assets/images/<?=$result['image_path']?>" alt=""></td>
 										<td>
-
+											<a href="update.php?section=information&id=<?=$id?>" class="btn btn-primary">update</a>
 										</td>										
 									</tr>
 					<?php
@@ -248,29 +248,19 @@
 					?>
 				</tbody>
 			</table>
-			<a href="update.php?section=footer&id=<?=$id?>" class="btn btn-primary">update</a>
-
-
-
 			<table class="table table-striped table-bordered table-hover">
-				<caption>Features List</caption>
+				<caption>Contact</caption>
 				<thead>
 					<th>ID</th>
-					<th>Title</th>
-					<th>SpecialWord</th>
-					<th>Subtitle</th>
-					<th>Text</th>
-					<th>button1</th>
-					<th>link1</th>
-					<th>button2</th>
-					<th>link2</th>
-					<th>Image Path</th>
+					<th>Mail</th>
+					<th>Adress</th>
+					<th>Phone number</th>
 					<th>Action</th>
 				</thead>
 				<tbody>		
 					<?php
 						if($db_conn) {
-							$sql_select_all = "SELECT * FROM firsttab";
+							$sql_select_all = "SELECT * FROM contact";
 							$query = mysqli_query($db_conn, $sql_select_all);
 							if ($query) {
 								$i = 0;
@@ -279,19 +269,12 @@
 					?>
 									<tr>
 										<td><?=$id?></td>
-										<td><?=$result['title']?></td>
-										<td><?=$result['titleBlue']?></td>
-										<td><?=$result['subtitle']?></td>
-										<td><?=$result['text']?></td>
-										<td><?=$result['button1']?></td>
-										<td><?=$result['link1']?></td>
-										<td><?=$result['button2']?></td>
-										<td><?=$result['link2']?></td>
-										<td><?=$result['image_path']?></td>
+										<td><?=$result['mail']?></td>
+										<td><?=$result['adress']?></td>
+										<td><?=$result['phone_number']?></td>
 										<td>
-										<a href="delete.php?section=firsttab&id=<?=$id?>" class="btn btn-danger">Delete</a>
-										<a href="update.php?section=firsttab&id=<?=$id?>" class="btn btn-primary">update</a>
-										</td>
+											<a href="update.php?section=contact&id=<?=$id?>" class="btn btn-primary">update</a>
+										</td>										
 									</tr>
 					<?php
 								}
@@ -300,7 +283,6 @@
 					?>
 				</tbody>
 			</table>
-			<a href="create.php?section=firsttab" class="btn btn-success pull-right">Create</a><br><br><br>
 		</div>
 	</div>
 </body>
