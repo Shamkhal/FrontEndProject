@@ -103,19 +103,19 @@
 <section id="about">
 	<div class="container text-center">
 		<ul class="nav nav-tabs text-center">
-			<li class="active">
-				<a href="#first-tab">FIRST TAB</a>
+			<li class="liOne active">
+				<button class="first-tab ">FIRST TAB</button>
 			</li>
-			<li>
-				<a href="#second-tab">SECOND TAB</a>
+			<li class="liTwo">
+				<button class="second-tab">SECOND TAB</button>
 			</li>
-			<li>
-				<a href="#third-tab">THIRD TAB</a>
+			<li class="liThree">
+				<button class="third-tab">THIRD TAB</button>
 			</li>
 		</ul>
 		<div class="tab-content">
-			<div class="tab-panel tab-active" id="first-tab">
-				<div class="row">
+			<div class="tab-panel tab-active" >
+				<div class="row" id="first-tab">
 					<div class="col-sm-6">
 						<img src="assets/images/people.jpg" class="img-responsive">
 					</div><!-- col-sm-6 -->
@@ -129,7 +129,7 @@
 					</div><!-- col-sm-6 -->
 				</div><!-- row -->
 			</div><!-- tab-panel -->
-			<div class="tab-panel" id="second-tab">
+			<div class="tab-panel hidden" id="second-tab">
 				<div class="row">
 					<div class="col-sm-6 pull-right">
 						<img src="assets/images/phone.jpg" class="img-responsive">
@@ -139,10 +139,10 @@
 						<h3>NEW AGE <span>TECHNOLOGY</span></h3>
 						<p class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</p>
 						<p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
-					</div><!-- col-sm-6 -->
-				</div><!-- row -->
-			</div><!-- tab-panel -->
-			<div class="tab-panel" id="third-tab">
+					</div>   <!-- col-sm-6 -->
+				</div>   <!-- row -->
+			</div>  <!-- tab-panel -->
+			<div class="tab-panel hidden" id="third-tab">
 				<div class="section-header">
 					<h2>3 EASY STEPS</h2>
 					<p class="sub-header">

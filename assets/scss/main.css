@@ -1,39 +1,40 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\000031}}
 #header {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\000037}}
   #header .custom-active {
     border-bottom: 2px solid #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\000039}}
     #header .custom-active a {
       color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\0000313}}
   #header .btn-login {
     background-color: transparent;
     color: #ACACAC;
     -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
     transition: all 0.2s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\0000316}}
     #header .btn-login:hover {
       color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\0000320}}
   #header .btn-signup {
     background-color: transparent;
     color: #1AC6FF;
     border: 1px solid #1AC6FF;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
     border-radius: 4px;
     -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
     padding-left: 25px;
     padding-right: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\0000325}}
     #header .btn-signup:hover {
       background-color: #1AC6FF;
       color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\0000330}}
   #header .navbar-default {
     border: none;
     border-radius: 0;
@@ -41,28 +42,34 @@
     margin-bottom: 0;
     background: transparent;
     padding-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\0000337}}
     #header .navbar-default .navbar-brand {
       margin-right: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\0000339}}
       #header .navbar-default .navbar-brand img {
         width: 130px;
         height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\0000345}}
   #header .nav-link, #header .dropdown-toggle {
     color: rgba(240, 240, 240, 0.8);
     font-size: 14px;
     text-transform: uppercase;
     -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
     transition: all 0.2s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\0000352}}
   #header .navbar-header button {
     border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\0000354}}
     #header .navbar-header button .icon-bar {
       background-color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\0000357}}
     #header .navbar-header button:hover {
       background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_header\.scss}line{font-family:\0000364}}
   #header .nav-link:hover {
     color: #1AC6FF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_banner\.scss}line{font-family:\000031}}
 #banner {
   min-height: 950px;
   padding-top: 301px;
@@ -73,49 +80,56 @@
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_banner\.scss}line{font-family:\0000311}}
   #banner h1 {
     font-size: 58px;
     font-weight: 300;
     margin: 20px 0 15px;
     color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_banner\.scss}line{font-family:\0000316}}
     #banner h1 span {
       color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_banner\.scss}line{font-family:\0000320}}
   #banner h5 {
     margin: 20px 0 30px;
     font-size: 24px;
     font-weight: 300;
     color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_banner\.scss}line{font-family:\0000326}}
   #banner .btn-getStarted {
     background-color: #1AC6FF;
     color: #fff;
     padding: 16px 50px;
     margin: 3px 7px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_banner\.scss}line{font-family:\0000329}}
     #banner .btn-getStarted span {
       margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_banner\.scss}line{font-family:\0000334}}
   #banner .btn-tour {
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
     border-radius: 4px;
     -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
     margin: 3px 7px;
     padding: 15px 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_banner\.scss}line{font-family:\0000339}}
     #banner .btn-tour:hover {
       background-color: #fff;
       color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_banner\.scss}line{font-family:\0000344}}
   #banner .container {
     padding: 70px 15px;
-    animation-delay: 0ms;
-    animation-duration: 0.7s; }
+    -webkit-animation-delay: 0ms;
+            animation-delay: 0ms;
+    -webkit-animation-duration: 0.7s;
+            animation-duration: 0.7s; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_clients\.scss}line{font-family:\000031}}
 #clients {
   background-color: #F0F0F0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_clients\.scss}line{font-family:\000033}}
   #clients .photo {
     overflow: hidden;
     height: 71px;
@@ -123,88 +137,104 @@
     float: left;
     margin: 0 auto;
     padding: 0 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_clients\.scss}line{font-family:\0000311}}
   #clients ul {
     margin: 25px 5px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\000031}}
 #about {
   padding-top: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\000033}}
   #about .nav-tabs {
     display: inline-block;
     margin-bottom: 50px; }
-    #about .nav-tabs .active a {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\000037}}
+    #about .nav-tabs .active button {
       background-color: #1AC6FF;
       color: #fff; }
-    #about .nav-tabs li a {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000313}}
+    #about .nav-tabs li button {
       border-radius: 0;
       border: 1px solid #F0F0F0;
       margin: 0;
       padding: 20px 60px;
       color: #000; }
-      #about .nav-tabs li a:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000319}}
+      #about .nav-tabs li button:hover {
         background-color: #1AC6FF;
         color: #fff; }
-      #about .nav-tabs li a:focus {
-        background-color: transparent;
-        color: #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000323}}
+      #about .nav-tabs li button:focus {
+        background-color: #1AC6FF;
+        color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000331}}
   #about .tab-content .tab-active {
     display: block !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000334}}
   #about .tab-content .tab-panel {
-    display: none;
     padding-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000337}}
     #about .tab-content .tab-panel a {
       background-color: transparent;
       color: #1AC6FF;
       border: 1px solid #1AC6FF;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      -ms-border-radius: 3px;
       border-radius: 3px;
       -webkit-transition: all 0.2s ease;
-      -moz-transition: all 0.2s ease;
-      -o-transition: all 0.2s ease;
       transition: all 0.2s ease;
       margin: 15px 7px 0;
       padding: 15px 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000342}}
       #about .tab-content .tab-panel a:hover {
         background-color: #1AC6FF;
         color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000347}}
     #about .tab-content .tab-panel h3 {
       margin: 20px 0 15px;
       font-size: 34px;
       font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000351}}
       #about .tab-content .tab-panel h3 span {
         color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000355}}
     #about .tab-content .tab-panel p {
       margin: 0 0 10px;
       font-size: 14px;
       line-height: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000360}}
     #about .tab-content .tab-panel .sub-title {
       margin-bottom: 20px;
       font-size: 16px;
       font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000365}}
     #about .tab-content .tab-panel .section-header {
       margin: 30px 0 80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000368}}
     #about .tab-content .tab-panel .sub-header {
       margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000371}}
     #about .tab-content .tab-panel h2 {
       margin: 20px 0 15px;
       font-size: 45px;
       font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000376}}
     #about .tab-content .tab-panel .heading {
       display: block;
       margin: 0 0 10px;
       font-size: 16px;
       font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000382}}
     #about .tab-content .tab-panel .thin {
       font-weight: 300;
       margin: 0 0 10px;
       line-height: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000387}}
     #about .tab-content .tab-panel i {
       font-size: 81px;
       color: #1AC6FF;
       vertical-align: center;
       line-height: 1;
       margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_about\.scss}line{font-family:\0000396}}
   #about hr {
     margin: 0;
     display: inline-block;
@@ -213,22 +243,28 @@
     border: none;
     background-color: #F0F0F0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_process\.scss}line{font-family:\000031}}
 #process {
   padding: 20px 0 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_process\.scss}line{font-family:\000033}}
   #process h3 {
     margin: 20px 0 15px;
     font-size: 34px;
     font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_process\.scss}line{font-family:\000037}}
     #process h3 span {
       color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_process\.scss}line{font-family:\0000311}}
   #process p {
     margin: 0 0 10px;
     font-size: 14px;
     line-height: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_process\.scss}line{font-family:\0000316}}
   #process .sub-title {
     margin-bottom: 20px;
     font-size: 16px;
     font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_process\.scss}line{font-family:\0000321}}
   #process hr {
     margin: 0;
     display: inline-block;
@@ -237,25 +273,32 @@
     border: none;
     background-color: #F0F0F0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features\.scss}line{font-family:\000031}}
 #features {
   margin-bottom: 50px;
   padding: 0 0 30px;
   background-color: #f0f0f0; }
   @media only screen and (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features\.scss}line{font-family:\000036}}
     #features .tabs {
       margin-top: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features\.scss}line{font-family:\000039}}
     #features a {
       display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features\.scss}line{font-family:\0000312}}
     #features li {
       display: block; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features\.scss}line{font-family:\0000316}}
   #features a {
     display: inline-block;
     text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features\.scss}line{font-family:\0000320}}
   #features li {
     display: inline-block;
     padding: 10px 0;
     margin: 0 5px;
     width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features\.scss}line{font-family:\0000326}}
   #features .tab-info {
     float: left;
     position: relative;
@@ -263,6 +306,7 @@
     padding: 25px 28px;
     text-align: left;
     z-index: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features\.scss}line{font-family:\0000333}}
     #features .tab-info .tab-title {
       color: #1AC6FF;
       padding-bottom: 10px;
@@ -270,48 +314,60 @@
       font-weight: 700;
       text-transform: uppercase;
       line-height: 1.23; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features\.scss}line{font-family:\0000341}}
     #features .tab-info .tab-description {
       display: block;
       font-size: 16px;
       font-weight: 300;
       line-height: 1.86;
       color: #606060; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features\.scss}line{font-family:\0000350}}
   #features ul .active {
     border-radius: 3px;
     background-color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features\.scss}line{font-family:\0000353}}
     #features ul .active .tab-title, #features ul .active .tab-desc {
       color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features\.scss}line{font-family:\0000359}}
   #features .col-md-8 .tab-pane {
     display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features\.scss}line{font-family:\0000362}}
   #features .col-md-8 .active {
     display: block; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features-list\.scss}line{font-family:\000031}}
 #features-list {
   position: relative;
   min-height: 50px;
   padding: 30px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features-list\.scss}line{font-family:\000035}}
   #features-list .wrapper {
     margin: 0 0 60px;
     padding: 0px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features-list\.scss}line{font-family:\000039}}
     #features-list .wrapper:hover i {
       opacity: .6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features-list\.scss}line{font-family:\0000313}}
     #features-list .wrapper i {
       font-size: 55px;
       color: #1AC6FF;
       line-height: 1.7;
       font-weight: 700;
       margin: 12px 0 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features-list\.scss}line{font-family:\0000320}}
     #features-list .wrapper .heading {
       margin: 0 0 10px;
       font-weight: 400;
       display: block;
       font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_features-list\.scss}line{font-family:\0000326}}
     #features-list .wrapper p {
       font-size: 15px;
       color: #8d8d8d;
       margin: 0 0 10px;
       line-height: 25px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_newsletter\.scss}line{font-family:\000031}}
 #newsletter {
   background-size: cover;
   background-image: url("../images/low_poly_background.jpg");
@@ -320,16 +376,20 @@
   background-attachment: fixed;
   padding: 40px 0 25px;
   color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_newsletter\.scss}line{font-family:\0000310}}
   #newsletter .news-left h2 {
     margin: -5px 0 0;
     line-height: 1;
     font-size: 45px;
     font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_newsletter\.scss}line{font-family:\0000316}}
   #newsletter .news-left p {
     font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_newsletter\.scss}line{font-family:\0000321}}
   #newsletter .news-right .form-group {
     padding-top: 10px;
     margin-bottom: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_newsletter\.scss}line{font-family:\0000324}}
     #newsletter .news-right .form-group input[type=text], #newsletter .news-right .form-group input[type=email] {
       box-shadow: none;
       height: 46px;
@@ -346,17 +406,13 @@
       margin-right: 8px;
       background-clip: padding-box;
       margin-top: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_newsletter\.scss}line{font-family:\0000341}}
     #newsletter .news-right .form-group input[type=submit] {
       background-color: transparent;
       color: #fff;
       border: 1px solid #fff;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      -ms-border-radius: 3px;
       border-radius: 3px;
       -webkit-transition: all 0.2s ease;
-      -moz-transition: all 0.2s ease;
-      -o-transition: all 0.2s ease;
       transition: all 0.2s ease;
       font-size: 14px;
       font-weight: 500;
@@ -365,48 +421,60 @@
       max-width: 100%;
       margin-top: 4px;
       padding: 15px 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_newsletter\.scss}line{font-family:\0000351}}
       #newsletter .news-right .form-group input[type=submit]:hover {
         background-color: #fff;
         color: #1AC6FF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\000031}}
 #product {
   position: relative;
   min-height: 50px;
   padding: 30px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\000035}}
   #product .section-header {
     margin: 30px 0 80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\000037}}
     #product .section-header h2 {
       margin: 20px 0 15px;
       font-weight: 300;
       font-size: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000311}}
       #product .section-header h2 span {
         color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000315}}
     #product .section-header .sub-header {
       margin-bottom: 30px;
       line-height: 25px;
       font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000322}}
   #product .section-content .package-column {
     border: 1px solid #f0f0f0;
     background-color: #f7f7f7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000326}}
     #product .section-content .package-column:hover .package-title, #product .section-content .package-column:hover .package-detail {
       color: #fff;
       background-color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000329}}
       #product .section-content .package-column:hover .package-title li, #product .section-content .package-column:hover .package-detail li {
         color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000332}}
       #product .section-content .package-column:hover .package-title a, #product .section-content .package-column:hover .package-detail a {
         background-color: transparent;
         color: #fff;
         border-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000338}}
     #product .section-content .package-column:hover .package-price {
       background-color: #23ADDB; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000340}}
       #product .section-content .package-column:hover .package-price .price {
         color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000344}}
     #product .section-content .package-column:hover .period {
       color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000348}}
     #product .section-content .package-column .package-title {
       -webkit-transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
-      -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
       color: #474747;
       padding: 20px 0 18px;
@@ -414,20 +482,21 @@
       font-weight: 300;
       text-transform: uppercase;
       line-height: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000357}}
     #product .section-content .package-column .package-price {
       -webkit-transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
-      -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
       padding: 15px;
       font-weight: 300;
       background-color: rgba(171, 172, 179, 0.1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000362}}
       #product .section-content .package-column .package-price .price {
         color: #1AC6FF;
         position: relative;
         font-size: 115px;
         font-weight: 300;
         line-height: 125px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000368}}
         #product .section-content .package-column .package-price .price .currency {
           position: relative;
           color: inherit;
@@ -435,19 +504,21 @@
           font-size: 47px;
           font-weight: 500;
           line-height: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000377}}
       #product .section-content .package-column .package-price .period {
         color: #aeaeae;
         font-size: 15px;
         text-transform: uppercase;
         line-height: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000384}}
     #product .section-content .package-column .package-detail {
       padding: 30px 15% 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000386}}
       #product .section-content .package-column .package-detail ul {
         margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000388}}
         #product .section-content .package-column .package-detail ul li {
           -webkit-transition: all 0.2s ease-in-out;
-          -moz-transition: all 0.2s ease-in-out;
-          -o-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
           color: #4c4c4c;
           height: 56px;
@@ -456,73 +527,80 @@
           font-weight: 500;
           line-height: 25px;
           border-bottom: 1px solid #dadada; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\0000397}}
           #product .section-content .package-column .package-detail ul li:last-child {
             border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\00003102}}
       #product .section-content .package-column .package-detail a {
         text-transform: uppercase;
         padding: 15px 25px;
         -webkit-transition: all 0.2s ease-in-out;
-        -moz-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
         background-color: transparent;
         color: #1AC6FF;
         border: 1px solid #1AC6FF;
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        -ms-border-radius: 3px;
         border-radius: 3px;
         display: block;
         width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\00003109}}
         #product .section-content .package-column .package-detail a:hover {
           background-color: #fff;
           color: #1AC6FF;
           border-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\00003117}}
   #product .section-content .disabled {
     opacity: 0.8;
     pointer-events: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\00003120}}
     #product .section-content .disabled .package-title {
       color: #8d8d8d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\00003124}}
     #product .section-content .disabled .package-price .price {
       color: #aeaeae; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\00003127}}
     #product .section-content .disabled .package-price .currency {
       color: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\00003133}}
     #product .section-content .disabled .package-detail ul li {
       color: #8d8d8d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_product\.scss}line{font-family:\00003137}}
     #product .section-content .disabled .package-detail a {
       background-color: transparent;
       color: #a4a4a4;
       border: 1px solid #a4a4a4;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      -ms-border-radius: 3px;
       border-radius: 3px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_awards\.scss}line{font-family:\000031}}
 #awards {
   padding-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_awards\.scss}line{font-family:\000033}}
   #awards .section-header {
     margin: 30px 0 80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_awards\.scss}line{font-family:\000035}}
     #awards .section-header h2 {
       margin: 20px 0 15px;
       font-weight: 300;
       font-size: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_awards\.scss}line{font-family:\000039}}
       #awards .section-header h2 span {
         color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_awards\.scss}line{font-family:\0000313}}
     #awards .section-header p {
       margin: 0 0 10px;
       line-height: 25px;
       font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_awards\.scss}line{font-family:\0000321}}
   #awards .section-content ul li {
     -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
     padding: 0 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_awards\.scss}line{font-family:\0000324}}
     #awards .section-content ul li a:hover {
       opacity: .7;
       cursor: pointer;
       text-decoration: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback\.scss}line{font-family:\000031}}
 #feedback {
   color: #fff;
   background-size: cover;
@@ -533,19 +611,25 @@
   overflow: hidden;
   padding: 20px 0 0;
   position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback\.scss}line{font-family:\0000311}}
   #feedback .section-header {
     margin: 30px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback\.scss}line{font-family:\0000313}}
     #feedback .section-header h2 {
       margin: 20px 0 15px;
       font-weight: 300;
       font-size: 45px;
       line-height: 1.1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback\.scss}line{font-family:\0000318}}
       #feedback .section-header h2 span {
         color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback\.scss}line{font-family:\0000323}}
   #feedback .section-content {
     margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback\.scss}line{font-family:\0000325}}
     #feedback .section-content .slider {
       margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback\.scss}line{font-family:\0000328}}
     #feedback .section-content blockquote {
       position: relative;
       margin: 0 1px;
@@ -556,27 +640,30 @@
       text-align: center;
       line-height: 1.6;
       border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback\.scss}line{font-family:\0000338}}
       #feedback .section-content blockquote:before {
         position: absolute;
         top: 25%;
         left: 0;
         content: url("../images/quotes-a.png"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback\.scss}line{font-family:\0000344}}
       #feedback .section-content blockquote:after {
         position: absolute;
         top: 25%;
         right: 0;
         content: url("../images/quotes-b.png"); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback-controls\.scss}line{font-family:\000032}}
 #feedback-controls .flex-manual {
   margin-top: 15px;
   border-bottom: 1px solid #e9e9e9;
   height: 120px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback-controls\.scss}line{font-family:\000036}}
   #feedback-controls .flex-manual .wrap {
     padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback-controls\.scss}line{font-family:\000039}}
   #feedback-controls .flex-manual .switch {
     -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     margin: 0 0 0 30px;
     height: 120px;
@@ -584,52 +671,70 @@
     text-align: left;
     opacity: 0.75;
     cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback-controls\.scss}line{font-family:\0000310}}
     #feedback-controls .flex-manual .switch:hover {
       opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback-controls\.scss}line{font-family:\0000312}}
       #feedback-controls .flex-manual .switch:hover p {
         color: #606060; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback-controls\.scss}line{font-family:\0000315}}
       #feedback-controls .flex-manual .switch:hover .highlight {
         color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback-controls\.scss}line{font-family:\0000326}}
     #feedback-controls .flex-manual .switch p {
       padding: 12px 0 0 80px;
       font-size: 16px;
       color: #dadada;
       margin: 0 0 10px;
       line-height: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback-controls\.scss}line{font-family:\0000333}}
     #feedback-controls .flex-manual .switch .highlight {
       color: #dadada; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback-controls\.scss}line{font-family:\0000337}}
   #feedback-controls .flex-manual .flex-active {
     border-style: solid;
     border-width: 0 0 1px;
     border-color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback-controls\.scss}line{font-family:\0000341}}
     #feedback-controls .flex-manual .flex-active .highlight {
       color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_feedback-controls\.scss}line{font-family:\0000344}}
     #feedback-controls .flex-manual .flex-active p {
       color: #606060; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_team\.scss}line{font-family:\000031}}
 #team {
   padding: 30px 0;
   position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_team\.scss}line{font-family:\000034}}
   #team .section-header {
     margin: 30px 0 80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_team\.scss}line{font-family:\000036}}
     #team .section-header h2 {
       margin: 20px 0 15px;
       font-weight: 300;
       font-size: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_team\.scss}line{font-family:\0000310}}
       #team .section-header h2 span {
         color: #1AC6FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_team\.scss}line{font-family:\0000314}}
     #team .section-header p {
       margin: 0 0 10px;
       line-height: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_team\.scss}line{font-family:\0000318}}
     #team .section-header .sub-header {
       margin-bottom: 30px;
       font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_team\.scss}line{font-family:\0000323}}
   #team .team-member {
     width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_team\.scss}line{font-family:\0000325}}
     #team .team-member .overlay-wrapper {
       position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_team\.scss}line{font-family:\0000328}}
       #team .team-member .overlay-wrapper:hover .covering {
         display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_team\.scss}line{font-family:\0000333}}
     #team .team-member .covering {
       max-width: 100%;
       width: 100%;
@@ -639,8 +744,10 @@
       top: 0;
       left: 0;
       display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_team\.scss}line{font-family:\0000343}}
     #team .team-member img {
       max-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_team\.scss}line{font-family:\0000346}}
     #team .team-member .name {
       color: #1AC6FF;
       margin: 15px 0 5px;
@@ -648,6 +755,7 @@
       font-weight: 700;
       text-transform: uppercase;
       line-height: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_team\.scss}line{font-family:\0000354}}
     #team .team-member .position {
       margin-bottom: 10px;
       display: inline-block;
@@ -655,44 +763,46 @@
       font-size: 14px;
       line-height: 20px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_guarantee\.scss}line{font-family:\000031}}
 #guarantee {
   padding: 40px 0 25px;
   background-color: #1AC6FF;
   color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_guarantee\.scss}line{font-family:\000035}}
   #guarantee i {
     margin-right: 15px;
     font-size: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_guarantee\.scss}line{font-family:\000039}}
   #guarantee h2 {
     margin: -5px 0 0;
     line-height: 1;
     font-size: 45px;
     font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_guarantee\.scss}line{font-family:\0000315}}
   #guarantee p {
     margin: 0 0 10px;
     line-height: 25px;
     font-weight: 300;
     font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_guarantee\.scss}line{font-family:\0000321}}
   #guarantee a {
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
     border-radius: 3px;
     -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
     font-weight: 500px;
     min-width: 144px;
     max-width: 100%;
     padding: 15px 25px;
     margin: 7px 7px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_guarantee\.scss}line{font-family:\0000329}}
     #guarantee a:hover {
       background-color: #fff;
       color: #1AC6FF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_footer\.scss}line{font-family:\000031}}
 #footer {
   color: #fff;
   background-size: cover;
@@ -702,15 +812,19 @@
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_footer\.scss}line{font-family:\0000310}}
   #footer .footer-content {
     padding: 75px 0 65px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_footer\.scss}line{font-family:\0000313}}
   #footer .logo-wrapper {
     margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_footer\.scss}line{font-family:\0000316}}
   #footer p {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.6;
     margin: 0 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_footer\.scss}line{font-family:\0000322}}
   #footer .heading {
     display: block;
     margin-bottom: 25px;
@@ -719,20 +833,23 @@
     text-transform: uppercase;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.36); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_footer\.scss}line{font-family:\0000331}}
   #footer li {
     padding: 0 15px 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_footer\.scss}line{font-family:\0000334}}
   #footer a {
     color: #1AC6FF;
     text-decoration: none;
     -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
     transition: all 0.2s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_footer\.scss}line{font-family:\0000338}}
     #footer a:hover {
       opacity: .7;
       color: #00ade6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_footer\.scss}line{font-family:\0000342}}
     #footer a i {
       font-size: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_footer\.scss}line{font-family:\0000347}}
   #footer .list-unstyled li {
     color: #fff;
     position: relative;
@@ -741,11 +858,13 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 1.6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_footer\.scss}line{font-family:\0000355}}
     #footer .list-unstyled li i {
       color: #1AC6FF;
       position: absolute;
       left: 0;
       font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/partials\/_footer\.scss}line{font-family:\0000363}}
   #footer .copyright {
     padding: 0;
     font-size: 14px;
@@ -754,13 +873,17 @@
     color: #ffffff;
     opacity: 0.5; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/main\.scss}line{font-family:\0000319}}
 body {
   font-family: 'Lato', sans-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/main\.scss}line{font-family:\0000322}}
+.hidden {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/main\.scss}line{font-family:\0000325}}
 .up-arrow {
   -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   position: fixed;
   display: none;
@@ -775,6 +898,7 @@ body {
   cursor: pointer;
   z-index: 5;
   opacity: 0.4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/FrontEndProject-master\/assets\/scss\/main\.scss}line{font-family:\0000340}}
   .up-arrow:hover {
     opacity: 1; }
 
