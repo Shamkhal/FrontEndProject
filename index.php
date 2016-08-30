@@ -114,19 +114,32 @@
 			</li>
 		</ul>
 		<div class="tab-content">
-			<div class="tab-panel tab-active" >
+			<div class="tab-panel tab-active"  >
 				<div class="row" id="first-tab">
+					<?php
+						if($db_conn) {
+							$sql_select_all = "SELECT * FROM firsttab";
+							$query = mysqli_query($db_conn, $sql_select_all);
+							if ($query) {
+								$i = 0;
+								while ($result = mysqli_fetch_assoc($query)) {
+					?>
 					<div class="col-sm-6">
-						<img src="assets/images/people.jpg" class="img-responsive">
+						<img src="assets/images/<?=$result['image_path']?>" class="img-responsive">
 					</div><!-- col-sm-6 -->
 					<div class="col-sm-6">
 						<br>
-						<h3>FOR EVERY <span>STARTUP</span></h3>
-						<p class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</p>
-						<p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
-						<a href="#" class="btn">GET TEMPLATE</a>
-						<a href="#" class="btn">SEE ELEMENTS</a>
+						<h3><?=$result['title']?><span><?=$result['titleBlue']?></span></h3>
+						<p class="sub-title"><?=$result['subtitle']?></p>
+						<p><?=$result['text']?>afsafasfasafa</p>
+						<a href="<?=$result['link1']?>" class="btn"><?=$result['button1']?></a>
+						<a href="<?<?=$result['link2']?>" class="btn"><?=$result['button2']?></a>
 					</div><!-- col-sm-6 -->
+				<?php
+							}
+						}
+					}
+				?>
 				</div><!-- row -->
 			</div><!-- tab-panel -->
 			<div class="tab-panel hidden" id="second-tab">
