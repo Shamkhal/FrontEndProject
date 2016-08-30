@@ -4,13 +4,13 @@
 		display: inline-block;
 		margin-bottom: 50px;
 		.active {
-			a {
+			button {
 				background-color: $blue;
 				color: #fff;
 			}
 		}
 		li {
-			a {
+			button {
 				border-radius: 0;
 				border: 1px solid $bg-gray;
 				margin: 0;
@@ -21,8 +21,8 @@
 					color: #fff;
 				}
 				&:focus {
-					background-color: transparent;
-					color: #000;
+					background-color: $blue;
+					color: #fff;
 				}
 			}
 		}
@@ -32,7 +32,7 @@
 			display: block !important;
 		}
 		.tab-panel {
-			display: none;
+				
 			padding-bottom: 20px;
 			a {
 				@include button(transparent, $blue, 'yes', 1px, solid, $blue, 3px);

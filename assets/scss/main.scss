@@ -15,7 +15,9 @@
 @import 'partials/team';
 @import 'partials/guarantee';
 @import 'partials/footer';
-
+.hidden{
+	display:none;
+}
 body {
 	font-family: 'Lato', sans-serif;
 }

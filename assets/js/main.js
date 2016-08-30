@@ -120,5 +120,32 @@ $(document).ready(function() {
 				animationDuration: '500ms'
 			});
 		}
+
+
+		$(".first-tab").click(function(){
+		$(".liOne").addClass("active");
+		$(".liTwo").removeClass("active");
+		$(".liThree").removeClass("active");
+		$("#first-tab").removeClass('hidden');
+		$("#third-tab").addClass('hidden');
+		$("#second-tab").addClass("hidden");
+		});
+	$(".second-tab").click(function(){
+		$(".liOne").removeClass("active");
+		$(".liThree").removeClass("active");
+		$("#first-tab").addClass('hidden');
+		$("#third-tab").addClass('hidden');
+		$("#second-tab").removeClass("hidden");
+		$(".liTwo").addClass("active");
+		});
+	$(".third-tab").click(function() {
+		$(".liOne").removeClass("active");
+		$(".liTwo").removeClass("active");
+		$("#first-tab").addClass('hidden');
+		$("#second-tab").addClass('hidden');
+		$("#third-tab").removeClass("hidden");
+		$(".liThree").addClass("active");
 	});
+	});
+
 });
