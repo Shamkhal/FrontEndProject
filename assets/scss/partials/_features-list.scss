@@ -1,0 +1,33 @@
+#features-list {
+	position: relative;
+	min-height: 50px;
+	padding: 30px 0;
+	.wrapper {
+		margin: 0 0 60px;
+		padding: 0px 10px;
+		&:hover {
+			i {
+				opacity: .6;
+			}
+		}
+		i {
+			font-size: 55px;
+			color: $blue;
+			line-height: 1.7;
+			font-weight: 700;
+			margin: 12px 0 13px;
+		}
+		.heading {
+			margin: 0 0 10px;
+			font-weight: 400;
+			display: block;
+			font-size: 16px;
+		}
+		p {
+			font-size: 15px;
+			color: #8d8d8d;
+			margin: 0 0 10px;
+			line-height: 25px;
+		}
+	}
+}

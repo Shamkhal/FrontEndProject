@@ -1,0 +1,17 @@
+@mixin transition ($target, $duration, $function) {
+	-webkit-transition: $target $duration $function;
+	-moz-transition: $target $duration $function;
+	-o-transition: $target $duration $function;
+	transition: $target $duration $function;
+}
+@mixin button($bg-color, $color, $border, $border-size: 0px, $border-type: solid, $border-color: $blue, $border-radius: 0px) {
+	background-color: $bg-color;
+	color: $color;
+	@if $border == 'yes' {
+		border: $border-size $border-type $border-color;
+		-webkit-border-radius: $border-radius;
+		-moz-border-radius: $border-radius;
+		-ms-border-radius: $border-radius;
+		border-radius: $border-radius;
+	}
+}

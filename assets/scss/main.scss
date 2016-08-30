@@ -1,0 +1,40 @@
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/header';
+@import 'partials/banner';
+@import 'partials/clients';
+@import 'partials/about';
+@import 'partials/process';
+@import 'partials/features';
+@import 'partials/features-list';
+@import 'partials/newsletter';
+@import 'partials/product';
+@import 'partials/awards';
+@import 'partials/feedback';
+@import 'partials/feedback-controls';
+@import 'partials/team';
+@import 'partials/guarantee';
+@import 'partials/footer';
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+.up-arrow {
+	@include transition(all, .5s, ease);
+	position: fixed;
+	display: none;
+	right: 20px;
+	bottom: 20px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: $blue;
+	background-color: rgba(0, 0, 0, 0.8);
+	cursor: pointer;
+	z-index: 5;
+	opacity: 0.4;
+	&:hover {
+		opacity: 1;
+	}
+}

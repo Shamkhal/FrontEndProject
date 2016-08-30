@@ -1,0 +1,29 @@
+#process {
+	padding: 20px 0 60px;
+	h3 {
+		margin: 20px 0 15px;
+		font-size: 34px;
+		font-weight: 300;
+		span {
+			color: $blue;
+		}
+	}
+	p {
+		margin: 0 0 10px;
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.sub-title {
+		margin-bottom: 20px;
+		font-size: 16px;
+		font-weight: 400;
+	}
+	hr {
+		margin: 0;
+		display: inline-block;
+		width: 100%;
+		height: 1px;
+		border: none;
+		background-color: $bg-gray;
+	}
+}

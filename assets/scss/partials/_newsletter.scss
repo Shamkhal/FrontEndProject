@@ -1,0 +1,58 @@
+#newsletter {
+	background-size: cover;
+	background-image: url('../images/low_poly_background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 40px 0 25px;
+	color: #fff;
+	.news-left {
+		h2 {
+			margin: -5px 0 0;
+			line-height: 1;
+			font-size: 45px;
+			font-weight: 300;
+		}
+		p {
+			font-size: 16px;
+		}
+	}
+	.news-right {
+		.form-group {
+			padding-top: 10px;
+			margin-bottom: 25px;
+			input[type=text], input[type=email] {
+				box-shadow: none;
+				height: 46px;
+				font-size: 17px;
+				font-weight: 300;
+				background-color: #ffffff;
+				border-radius: 0;
+				border-style: solid;
+				border-width: 1px 1px 1px 3px; 
+				border-color: $bg-gray;
+				border-left-color: $blue;
+				padding-left: 20px;
+				padding-right: 10px;
+				margin-right: 8px;
+				background-clip: padding-box;
+				margin-top: 4px; 
+			}
+			input[type=submit] {
+				@include button(transparent, #fff, 'yes', 1px, solid, #fff, 3px);
+				@include transition(all, .2s, ease);
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1;
+				min-width: 144px;
+				max-width: 100%;
+				margin-top: 4px; 
+				padding: 15px 25px;
+				&:hover {
+					background-color: #fff;
+					color: $blue;
+				}
+			}
+		}
+	}
+}

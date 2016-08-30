@@ -1,0 +1,68 @@
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	.custom-active {
+		border-bottom: 2px solid $blue;
+		a {
+			color: $blue;
+		}
+	}
+	.btn-login {
+		@include button(transparent, $text-gray, 'no');
+		@include transition(all, 0.2s, ease);
+		&:hover {
+			color: $blue;
+		}
+	}
+	.btn-signup {
+		@include button(transparent, $blue, 'yes', 1px, solid, $blue, 4px);
+		@include transition(all, 0.2s, ease);
+		padding-left: 25px;
+		padding-right: 25px;
+		&:hover {
+			background-color: $blue;
+			color: #fff;
+		}
+	}
+	.navbar-default {
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+		margin-bottom: 0;
+		background: transparent;
+		padding-top: 10px;
+		.navbar-brand {
+			margin-right: 50px;
+			img {
+				width: 130px;
+				height: 30px;
+			}	
+		}
+	}
+	.nav-link, .dropdown-toggle {
+		color: rgba(240, 240, 240, 0.8);
+		font-size: 14px;	
+		text-transform: uppercase;
+		@include transition(all, 0.2s, ease);
+	}
+	.navbar-header {
+		button {
+			border: none;
+			.icon-bar {
+				background-color: $blue;
+			}
+			&:hover {
+				background: transparent;
+			}
+		}
+		
+	}
+	.nav-link {
+		&:hover {
+			color: $blue;
+		}
+	}
+}

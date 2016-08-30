@@ -1,0 +1,52 @@
+#feedback {
+	color: #fff;
+	background-size: cover;
+	background-image: url('../images/low_poly_background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	overflow: hidden;
+	padding: 20px 0 0;
+	position: relative;
+	.section-header {
+		margin: 30px 0;
+		h2 {
+			margin: 20px 0 15px;
+			font-weight: 300;
+			font-size: 45px;
+			line-height: 1.1;
+			span {
+				color: $blue;
+			}
+		}
+	}
+	.section-content {
+		margin-bottom: 30px;
+		.slider {
+			margin-bottom: 30px;
+		}
+		blockquote {
+			position: relative;
+		    margin: 0 1px;
+		    display: block;
+		    padding: 0 100px;
+	        font-size: 17px;
+		    font-weight: 300;
+		    text-align: center;
+		    line-height: 1.6;
+		    border: none;
+			&:before {
+			    position: absolute;
+			    top: 25%;
+			    left: 0;
+    			content: url('../images/quotes-a.png');
+			}
+			&:after {
+			    position: absolute;
+			    top: 25%;
+			    right: 0;
+    			content: url('../images/quotes-b.png');
+			}
+		}
+	}
+}

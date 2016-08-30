@@ -1,0 +1,49 @@
+#banner {
+	min-height: 950px;
+	padding-top: 301px;
+	padding-bottom: 0px;
+	background-size: cover;
+	position: relative;
+	background-image: url('../images/low_poly_background.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	h1 {
+		font-size: 58px;
+		font-weight: 300;
+		margin: 20px 0 15px;
+		color: #fff;
+		span {
+			color: $blue;
+		}
+	}
+	h5 {
+		margin: 20px 0 30px;
+		font-size: 24px;
+		font-weight: 300;
+		color: #fff;
+	}
+	.btn-getStarted {
+		@include button ($blue, #fff, 'no');
+		padding: 16px 50px;
+		span {
+			margin-right: 5px;
+		}
+		margin: 3px 7px;
+	}
+	.btn-tour {
+		@include button (transparent, #fff, 'yes', 1px, solid, #fff, 4px);
+		@include transition (all, .2s, ease);
+		margin: 3px 7px;
+		padding: 15px 25px;
+		&:hover {
+			background-color: #fff;
+			color: $blue;
+		}
+	}
+	.container {
+		padding: 70px 15px;
+		animation-delay: 0ms;
+		animation-duration: 0.7s;
+	}
+}

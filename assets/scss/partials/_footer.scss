@@ -1,0 +1,71 @@
+#footer {
+	color: #fff;
+	background-size: cover;
+	padding: 0 0 30px;
+	font-weight: 300;
+	background-image: url('../images/low_poly_background.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	.footer-content {
+		padding: 75px 0 65px;
+	}
+	.logo-wrapper {
+		margin-bottom: 20px;
+	}
+	p {
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 1.6;
+		margin: 0 0 10px;
+	}
+	.heading {
+		display: block;
+		margin-bottom: 25px;
+		font-size: 16px;
+		font-weight: 500;
+		text-transform: uppercase;
+		text-align: center;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.36);
+	}
+	li {
+		padding: 0 15px 15px;
+	}
+	a {
+		color: $blue;
+		text-decoration: none;
+		@include transition(all, .2s, ease);
+		&:hover{
+			opacity: .7;
+			color: #00ade6;
+		}
+		i {
+			font-size: 50px;
+		}
+	}
+	.list-unstyled {
+		li {
+			color: #fff;
+			position: relative;
+			margin-bottom: 15px;
+			padding-left: 30px;
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 1.6;
+			i {
+				color: $blue;
+				position: absolute;
+				left: 0;
+				font-size: 20px;
+			}
+		}
+	}
+	.copyright {
+		padding: 0;
+		font-size: 14px;
+		font-weight: 300;
+		text-align: center;
+		color: #ffffff;
+		opacity: 0.5;
+	}
+}
